@@ -1,0 +1,98 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: 56px;  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;  margin-bottom: 60px; /* Margin bottom by footer height */
+
+  }
+}
+.temizle{clear:both;}
+.sosyal_paylas .fa{font-size:20px;border-radius:36px;min-width:36px;padding: 8px 0px 8px 8px;vertical-align:top;line-height:1;}
+.sosyal_paylas a{position:relative;display:block;float:left;margin:5px;color:#fff;}
+.sosyal_paylas .fa-facebook{background:#3b5998;}
+.sosyal_paylas .fa-twitter{background:#00aced;}
+.sosyal_paylas .fa-whatsapp{background:#4dc247;}
+.sosyal_paylas .fa-linkedin{background:#007bb5;}
+.sosyal_paylas .fa-google-plus{background:#dd4b39;}
+.btnsyl{border-radius:36px;position: relative;width: 36px;height: 36px;margin-left: 10px;}
+.btnsylfa{border-radius:36px;position: relative;width: 36px;height: 36px;}
+.iletisim_pass .fa-facebook{color:#3b5998;}
+.iletisim_pass .fa-twitter{color:#00aced;}
+.iletisim_pass .fa-instagram{color:#125688;}
+.iletisim_pass .fa-youtube{color:#bb0000;}
+.iletisim_pass .fa-google-plus{color:#dd4b39;}
+.ktgr li a{color:#000;font-weight: bold;}
+.ktgrlg {flex:100 100 100%;max-width: 100%;}
+.encklg{flex:100 100 100%;max-width: 100%;}
+.enck li a{color:#000;font-weight: bold;}
+.btnara{border-top-left-radius:0;border-bottom-left-radius:0;}
+.etiketler ul{left:-40px;list-style: outside none none;position: relative;}
+.etiketler ul li a{float:left;border:1px solid #dd4b39;padding: 5px;color:#000;}
+.etiketler ul li a:hover{background-color:#dd4b39;color:#fff;}
+.footer {position: absolute;width: 100%;line-height: 30px;background-color: #f5f5f5;}
+.dropdown-menu .dropdown-item:hover{background:#000;color:#fff;}
+.dizi-listesi{float:left;}
+.film-ack-sol{float:left;}
+.film-ack-sag{float:right;}
+#film-tab .tab-baslik li{float:left;}
+#film-tab .tab-baslik li a{border-right:1px solid #DDDDDD;color:#333333;float:right;font-weight:700;line-height:35px;padding:0 11px;position:relative;}
+#film-tab .tab-baslik li.tab-aktif a{border-bottom:2.5px solid #3B5998;border-top:2.5px solid #3B5998;margin:-2px 0;}
+#film-tab .tab-baslik li.seri{float:right;}
+#film-tab .tab-icerik{background-color:#FFF;width:100%;height:400px;float:center;margin:0 10px 0;position:relative;z-index:1000;}
+#film-tab .tab-embed {display:none;}
+#film-tab .tab-icerik iframe,
+#film-tab .tab-icerik object,
+#film-tab .tab-icerik embed{width:100%;height:400px;}
+#film-tab .v-genis,
+#film-tab .v-genis iframe,
+#film-tab .v-genis object,
+#film-tab .v-genis embed{width:938px;height:535px;}
+.tab-reklam {width:100%;height:100%;float:left;margin:0;}
+.tab-reklam ul {float: left;width:100%;margin: 40px 0 10px 0;}
+.tab-reklam ul li {text-align:center;}
+.tab-reklam .loading {margin:0 auto;padding:40px 0 0 0;display:table;}
+.tab-reklam .rkapat {background-color:#cce5ff;float:left;height:25px;line-height:25px;padding:0 5px;color:#343a40;cursor:pointer;font-weight:bold;-moz-border-radius:0 3px 3px 0;-webkit-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.tab-reklam .sure {background-color:#2E3543;float:left;width:25px;height:25px;line-height:25px;text-align:center;padding:0;color:#FFF;cursor:pointer;-moz-border-radius:3px 0 0 3px;-webkit-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+.tab-reklam-yoksa {background:#000;width:100%;height:100%;float:left;margin:0;}
+.tab-reklam-yoksa .reklam-logo {width:100%;height:100%;float:left;text-align: center;}
+.tab-reklam .yoksa {width:100%;float:left;margin:-35px 0 0 0;}
+.tab-reklam .yoksa .loading {background:transparent;margin:0 auto;padding:0;display:table;position:relative;}
+.spoiler {display: none;}.spoiler_yorum{border:1px solid #343a40;padding:5px;margin-top:10px;}
+.yrm_goster {display: none;}
+.yrm_gizle:target + .yrm_goster {display: inline;}
+.yrm_gizle:target {display: none;}
+.yrm_gizle:target ~ .spoiler {display: inline;}
+.full-drop{width:430px;font-size:14px;height:auto;}
+.soneklenenbolumler{
+  float:left;
+}
+.soneklenenbolumler .card {
+  border-color:#242424;
+  border-radius:10px;
+  color:#242424;
+}
+.soneklenenbolumler .card:hover {
+  border-color:#424242;
+  background:#424242;
+  border-radius:10px;
+  color:#FFF;
+}
+.soneklenenbolumler .card:hover>#span {
+  color:#FFF;
+}
+.soneklenenbolumler .card img {
+  border-bottom-left-radius:5px;
+  border-top-left-radius:5px;
+}
+.soneklenenbolumler .card .card-footer{
+  background:none;
+}
+.soneklenenbolumler .card img{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
