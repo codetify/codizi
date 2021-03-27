@@ -8,23 +8,18 @@ class Sitemap extends CI_Controller {
     {
         $this->load->database();
         
-        //Yazılar
-        $query = $this->db->get("brkdndr_filmler");
+        //Diziler
+        $query = $this->db->get("diziler");
         $data['items'] = $query->result();
         
         //Sayfalar
-        $query = $this->db->get("brkdndr_sayfalar");
+        $query = $this->db->get("sayfalar");
         $data['sayfas'] = $query->result();
         
         //Kategoriler
-        $query = $this->db->get("brkdndr_kategoriler");
+        $query = $this->db->get("kategoriler");
         $data['kategoris'] = $query->result();
 		
-		//Etiketler
-        //$query = $this->db->get("brkdndr_etiketler");
-        //$data['etikets'] = $query->result();
-
-
         $this->load->view('sitemap', $data);
     }
 }

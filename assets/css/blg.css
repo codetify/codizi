@@ -39,19 +39,19 @@ body {
 .dizi-listesi{float:left;}
 .film-ack-sol{float:left;}
 .film-ack-sag{float:right;}
-#film-tab .tab-baslik li{float:left;}
-#film-tab .tab-baslik li a{border-right:1px solid #DDDDDD;color:#333333;float:right;font-weight:700;line-height:35px;padding:0 11px;position:relative;}
-#film-tab .tab-baslik li.tab-aktif a{border-bottom:2.5px solid #3B5998;border-top:2.5px solid #3B5998;margin:-2px 0;}
-#film-tab .tab-baslik li.seri{float:right;}
-#film-tab .tab-icerik{background-color:#FFF;width:100%;height:400px;float:center;margin:0 10px 0;position:relative;z-index:1000;}
-#film-tab .tab-embed {display:none;}
-#film-tab .tab-icerik iframe,
-#film-tab .tab-icerik object,
-#film-tab .tab-icerik embed{width:100%;height:400px;}
-#film-tab .v-genis,
-#film-tab .v-genis iframe,
-#film-tab .v-genis object,
-#film-tab .v-genis embed{width:938px;height:535px;}
+#dizi-tab .tab-baslik li{float:left;}
+#dizi-tab .tab-baslik li a{border-right:1px solid #DDDDDD;color:#333333;float:right;font-weight:700;line-height:35px;padding:0 11px;position:relative;}
+#dizi-tab .tab-baslik li.tab-aktif a{border-bottom:2.5px solid #3B5998;border-top:2.5px solid #3B5998;margin:-2px 0;}
+#dizi-tab .tab-baslik li.seri{float:right;}
+#dizi-tab .tab-icerik{background-color:#FFF;width:100%;height:400px;float:center;margin:0 10px 0;position:relative;z-index:1000;}
+#dizi-tab .tab-embed {display:none;}
+#dizi-tab .tab-icerik iframe,
+#dizi-tab .tab-icerik object,
+#dizi-tab .tab-icerik embed{width:100%;height:400px;}
+#dizi-tab .v-genis,
+#dizi-tab .v-genis iframe,
+#dizi-tab .v-genis object,
+#dizi-tab .v-genis embed{width:938px;height:535px;}
 .tab-reklam {width:100%;height:100%;float:left;margin:0;}
 .tab-reklam ul {float: left;width:100%;margin: 40px 0 10px 0;}
 .tab-reklam ul li {text-align:center;}
