@@ -301,6 +301,14 @@ public function insert(){
 
         if($delete){
 
+            $where_sezon = array(
+                "dizi_id" => $id
+            );
+            $where_bolum = array(
+                "dizi_id" => $id
+            );
+            $this->sezonlar_model->delete($where_sezon);
+            $this->bolumler_model->delete($where_bolum);
             $alert = array(
                 "title" => "İşlem Başarılıdır!!",
                 "text" => "Silme işlemi başarılıdır...",
